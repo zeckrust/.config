@@ -3,10 +3,10 @@
 
 # Except these folders
 !.gitignore
-!sway/*
-!swaybg/*
-!swaylock/*
-!waybar/*
-!wofi/*
-!alacritty/*
+!sway/
+!swaybg/
+!swaylock/
+!waybar/
+!wofi/
+!alacritty/
 
