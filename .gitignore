@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Except these folders
+!.gitignore
+!sway/*
+!swaybg/*
+!swaylock/*
+!waybar/*
+!wofi/*
+!alacritty/*
+
