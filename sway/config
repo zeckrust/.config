@@ -32,7 +32,7 @@ bindsym $mod+Shift+S exec slurp | grim -g - ~/Pictures/Screenshots/$(date +'scre
 
 font pango:monospace 0.001
 default_border pixel 3
-gaps inner 3
+gaps inner 5
 gaps outer 3
 
 # Focused window border color
