@@ -5,6 +5,8 @@
 !.gitignore
 !sway/
 !sway/**
+!hypr/
+!hypr/**
 !swaybg/
 !swaybg/**
 !swaylock/

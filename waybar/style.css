@@ -76,7 +76,9 @@ button:hover {
     color: #d79921;
 }
 
-#workspaces button.focused {
+/* Use button.focused for sway */
+/* Use button.active for hyprland */
+#workspaces button.active {
     background-color: #665c54;
     /* box-shadow: inset 0 -3px #ffffff; */
 }

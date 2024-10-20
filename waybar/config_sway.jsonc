@@ -8,9 +8,11 @@
     "spacing": 5, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
-        "hyprland/window"
-        // "cava"
+        "sway/workspaces",
+        "sway/window",
+        "cava",
+        "sway/mode",
+        "sway/scratchpad"
     ],
     "modules-center": [
         "clock"
@@ -28,13 +30,13 @@
         // "tray"
     ],
     // Modules configuration
-    "hyprland/workspaces": {
+    "sway/workspaces": {
         "all-outputs": true,
         "warp-on-scroll": false,
         "enable-bar-scroll": false,
         "disable-scroll-wraparound": true
     },
-    "hyprland/window": {
+    "sway/window": {
         "format": "{title}",
         "max-length": 40,
         "all-outputs": true
@@ -77,10 +79,10 @@
             "deactivated": ""
         }
     },
-    "hyprland/mode": {
+    "sway/mode": {
         "format": "{}"
     },
-    "hyprland/scratchpad": {
+    "sway/scratchpad": {
         "format": "{icon} {count}",
         "show-empty": false,
         "format-icons": ["", ""],
