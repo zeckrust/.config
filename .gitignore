@@ -17,4 +17,5 @@
 !wofi/**
 !alacritty/
 !alacritty/**
+!starship.toml
 
