@@ -4,7 +4,9 @@ format = """
 [](fg:my_yellow)\
 $os\
 $username\
-[ ](bg:my_orange fg:my_yellow)\
+[](bg:my_light_orange fg:my_yellow)\
+$git_branch\
+[](bg:my_orange fg:my_light_orange)\
 $time\
 [ ](fg:my_orange)\
 $directory\
@@ -19,6 +21,7 @@ my_yellow = '#ffc400'
 my_white = '#ffffff'
 my_dark_gray = '#282828'
 my_light_gray = '#adadad'
+my_light_orange = '#fc9403'
 my_orange = '#ff6600'
 
 [os]
@@ -37,6 +40,13 @@ show_always = true
 style_user = "bg:my_yellow fg:bold my_dark_gray"
 style_root = "bg:my_yellow fg:bold my_dark_gray"
 format = '[ $user ]($style)'
+
+[git_branch]
+symbol = ""
+truncation_length = 4
+truncation_symbol = ''
+style = 'bg:my_light_orange fg:my_dark_gray'
+format = '[ $symbol $branch ]($style)'
 
 [directory]
 style = "fg:my_white"
