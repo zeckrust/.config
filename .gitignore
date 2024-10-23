@@ -13,7 +13,5 @@
 !waybar/**
 !wofi/
 !wofi/**
-!alacritty/
-!alacritty/**
 !starship.toml
 
