@@ -79,7 +79,7 @@ button:hover {
 /* Use button.focused for sway */
 /* Use button.active for hyprland */
 #workspaces button.active {
-	background: linear-gradient(45deg, #ffc400, #ff6600);
+	background: linear-gradient(90deg, #ffc400, #ff6600);
     color: #282828;
     background-color: #665c54;
     /* box-shadow: inset 0 -3px #ffffff; */
@@ -130,12 +130,12 @@ button:hover {
 }
 
 #clock {
-	background: linear-gradient(45deg, #ffc400, #ff6600);
+	background: linear-gradient(90deg, #ffc400, #ff6600);
     color: #282828;
 }
 
 #battery {
-	background: linear-gradient(45deg, #ffc400, #ff6600);
+	background: linear-gradient(90deg, #ffc400, #ff6600);
     color: #282828;
 }
 
